@@ -6,7 +6,14 @@
 name: Zhisheng Zhong (钟之声)
 
 # Short bio or description (displayed in the header)
-description: I am currently a Ph.D. candidate at National University of Singapore (NUS), fortunately advised by Dr. Jiashi Feng and Dr. Shuicheng Yan. Before studying in NUS, I graduated from Peking University (PKU) in 2016 and during this period of time, I was fortunately directed by Dr. Zhouchen Lin and Dr. Chao Zhang.
+description: I am currently a Ph.D. candidate at National University of Singapore (NUS), 
+
+fortunately advised by Dr. Jiashi Feng and Dr. Shuicheng Yan. Before studying in NUS, 
+
+
+I graduated from Peking University (PKU) in 2016 and during this period of time, 
+
+I was fortunately directed by Dr. Zhouchen Lin and Dr. Chao Zhang.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
