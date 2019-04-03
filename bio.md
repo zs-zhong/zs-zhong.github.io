@@ -12,8 +12,8 @@ Deep learning, computer vision, etc.
 
 ### Others
 
-[My Google Scholar](https://www.baidu.com)
+[Google Scholar](https://www.baidu.com)
 
-[My Curriculum Vitae](https://www.baidu.com)
+[Curriculum Vitae](https://www.baidu.com)
 
 
