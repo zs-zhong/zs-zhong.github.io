@@ -4,7 +4,7 @@ title: Honors
 permalink: /honor/
 ---
 
-- 2018 Bao Steel Education Scholarship (10,000 CNY), PKU __(Top-5%)__
+- 2018 Bao Steel Education Scholarship, PKU __(Top-5%)__
 - 2018 Merit Student, PKU __(Top-5%)__
 - 2016 Third Prize, National Graduate Contest on Smart-city Technology and Creative Design, China __(Top-20%)__
 - 2016 Excellent Graduate, BUPT __(Top-5%)__
