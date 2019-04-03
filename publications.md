@@ -8,7 +8,7 @@ Some information about you!
 
 ### More Information
 
-![Alt text](/images/config.png)![Alt text](/images/config.png)
+![Alt text](/images/srcliquenet_0.PNG)![Alt text](/images/srcliquenet_1.PNG)
 
 ### Contact me
 
