@@ -13,5 +13,5 @@ permalink: /honor/
 - 2014 small National Encouragement Scholarship, BUPT __(Top-10%)__
 - 2013 Merit Student, BUPT __(Top-5%)__
 - 2013 small National Encouragement Scholarship, BUPT __(Top-10%)__
-- 2013 First Prize, Beijing undergraduate physics competition, Beijing __(Top-10%)__
-- 2013 First Prize, Beijing undergraduate mathematics competition, Beijing __(Top-10%)__
+- 2013 First Prize, Beijing undergraduate physics competition, Beijing __(Top-5%)__
+- 2013 First Prize, Beijing undergraduate mathematics competition, Beijing __(Top-5%)__
