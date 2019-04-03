@@ -4,7 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-### Journal
 
 
 ### International Conference
@@ -25,3 +24,9 @@ permalink: /publications/
 
   [\[Paper\]]({https://arxiv.org/abs/1802.10419) / [\[Code\]](https://github.com/iboing/CliqueNet)
 <!-- [\[Project\]](https://www.hal.t.u-tokyo.ac.jp/~furuta/pub/fcn_rl/fcn_rl.html) / [\[Paper\]](https://arxiv.org/abs/1811.04323) / [\[Code\]](https://github.com/rfuruta/pixelRL) -->
+
+
+### Journal
+\cvitem{$\bullet$}{{\textit{\textbf{Journals}}}}
+
+\cvitem{[1]}{\underline{\textbf{Zhisheng Zhong}}, Fangyin Wei, Zhouchen Lin, Chao Zhang. ADA-Tucker: Compressing Deep Neural Networks via Adaptive Dimension Adjustment Tucker Decomposition. Elsevier, Neural Networks, Volume 110, Feb. 2019, Pages 104-115. \textit{\textbf{JIF: 7.197}}. \href{https://www.sciencedirect.com/science/article/pii/S0893608018303010}{\textcolor[rgb]{0.22,0.45,0.70}{[\textbf{pdf}]}}.}
