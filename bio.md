@@ -14,7 +14,7 @@ Deep learning, computer vision, etc.
 
 ### Others
 
-[Google Scholar](https://www.baidu.com)
+[Google Scholar](https://scholar.google.com/citations?user=u-2_7C8AAAAJ)
 
 [Curriculum Vitae](/images/Resume_EN_ZhishengZhong.pdf)
 
