@@ -1,268 +1,355 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<!-- Meta tags for search engines to crawl -->
-<meta name="robots" content="index,follow">
-<meta name="keywords" content="Zhisheng Zhong; 钟之声; Computer Vision; Deep Learning; Aizawa Yamasaki Lab; AYLAB; The University of Tokyo; UTokyo; Peking University; PKU">
-<link rel="author" href="https://zzs1994.github.io//">
-
-	<title>Zhisheng Zhong</title>
-	<style>
-
-@media screen and (max-device-width: 480px){
-  body{
-    -webkit-text-size-adjust: none;
-  }
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Zhisheng Zhong</title>
+  <meta content="Zhisheng Zhong; 钟之声; Computer Vision; Deep Learning; Aizawa Yamasaki Lab; AYLAB; The University of Tokyo; UTokyo; Peking University; PKU" name="keywords" />
+  <style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
 }
-p { font-size : 16px; }
-h1 { font-size : 34px; margin : 0; padding : 0; }
-h2 { font-size : 20px; margin : 0; padding : 0; }
-h3 { font-size : 18px; margin : 8; padding : 0; }
-body { padding : 0; font-family : "Times New Roman"; font-size : 16px; background-color : #fff; }
-.title { width : 650px; margin : 20px auto; }
-.container { width : 750px; margin : 20px auto; border-radius: 10px;  background-color : #fff; padding : 20px;  clear:both;}
-#bio {
-    padding-top : 40px;
+a {
+  color: #1772d0;
+  text-decoration:none;
 }
-#me { border : 0 solid black; margin-bottom : 50px; border-radius : 10px; }
-#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
-a { text-decoration : none; }
-a:hover { text-decoration : underline; }
-a, a:visited { color : #0050e7; }
-.publogo { width: 100 px; margin-right : 20px; float : left; border : 0;}
-.publication { clear : left; padding-bottom : 0px; }
-.publication p { height : 100px; padding-top : 5px;}
-.publication strong a { color : #0000A0; }
-.publication .links { position : relative; top : 15px }
-.publication .links a { margin-right : 20px; }
-.codelogo { margin-right : 10px; float : left; border : 0;}
-.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
-.code .download a { display : block; margin : 0 15px; float : left;}
-.code strong a { color : #000; }
-.external a { margin : 0 10px; }
-.external a.first { margin : 0 10px 0 0; }
-	</style>
-	<script async="" src="./homepage_files/analytics.js"></script>
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+a.paper {
+  font-weight: bold;
+  font-size: 14pt;
+}
+b.paper {
+  font-weight: bold;
+  font-size: 14pt;
+}
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 1000px;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #eee;
+}
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 17pt;
+  font-weight: 700;
+}
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight:bold;
+}
+ul { 
+  list-style: circle;
+}
+img {
+  border: none;
+}
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+alert {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FF0000;
+}
+em, i {
+  font-style:italic;
+}
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+div.spanner {
+  clear: both;
+}
+div.paper {
+  clear: both;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+div.paper div {
+  padding-left: 230px;
+}
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 200px;
+}
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+div.paper pre {
+  font-size: 0.9em;
+}
+</style>
+
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45959174-3', 'zzs1994.github.io');
+  ga('send', 'pageview');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66888300-1', 'auto');
+  ga('send', 'pageview');
+</script>
 <body>
-	<div class="title">
-		<div id="sidebar"><img src="./homepage_files/self.jpg" vspace="50 px" width="300 px" id="me" itemprop="photo"></div>
-		<div id="bio">
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
+<div style="margin: 0px auto; width: 100%;">
+<img title="Zhisheng" style="float: left; padding-left: .5em; height: 140px;" src="zhisheng.JPG" />
+<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Zhisheng Zhong, 钟之声</span><br />
+<span><strong>Ph.D. Candidate</strong></span><br />
+<!--<span><a href='http://cvrs.whu.edu.cn/'>Computer Vision & Remote Sensing (CVRS) Lab </a> <br /> </q>-->
+<span>Graduate School of Information Science and Technology, the University of Tokyo (IST, UTokyo)</span><br />
+<span><strong>Email  </strong>: zhisheng [at] hal.t.u-tokyo.ac.jp &nbsp &nbsp   zszhong [at] pku.edu.cn </span><br/>
+<span><strong><a href='https://github.com/zzs1994'>Github</a></strong>  &nbsp &nbsp
+<strong><a href='https://scholar.google.com.hk/citations?user=u-2_7C8AAAAJ&hl=zh-CN'>Google Scholar</a></strong> &nbsp &nbsp
+<strong><a href='./Resume_zhisheng.PDF'>Resume</a></strong></span><br/>
+<!-- <span><strong> <a href='https://github.com/kailigo'>Github</a> </strong></span> <br /> -->
+<!-- <span><strong> <a href='https://scholar.google.com/citations?hl=en&user=YsROc4UAAAAJ'>Google Scholar</a> </strong></span> <br /> -->
+</div>
+</div>
+</div>
+<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
 
-            <br>
-
-			<h1>
-				<span itemprop="name"> <font size="5"> Zhisheng Zhong,</font> <font size="5">钟之声</font> </span>
-			</h1>
-
-            <br>
-            <br>
-
-			<p style="line-height:23px;">
-				Ph.D. Candidate
-                <br>
-                <br>
-                The University of Tokyo
-                <br>
-                <br>
-                Email: zhisheng at hal.t.u-tokyo.ac.jp
-                <br>
-			</p>
-
-            <br>
-
-            <p class="external">
-                <a href="https://scholar.google.com.hk/citations?user=u-2_7C8AAAAJ&hl=zh-CN" class="first">Google Scholar</a>
-                <a href="https://github.com/zzs1994/">GitHub</a>
-                <a href="./papers/Resume.pdf">Resume</a>
-            </p>
-		</div>
-	</div>
-
-	<div class="container">
-		<h2>Short Biography</h2>
-        <br>
-		<p style="text-align:justify; text-justify:inter-ideograph;">
-            I am currently a Ph.D candidate at <a href="https://www.u-tokyo.ac.jp/en">the University of Tokyo (UTokyo)</a>, <a href="http://www.hal.t.u-tokyo.ac.jp/lab/en">Aizawa Yamasaki Laboratory</a>, fortunately  directed by Prof. <a href="http://www.hal.t.u-tokyo.ac.jp/~aizawa/">Kiyoharu Aizawa</a>. Before studying in UTokyo, I graduated from <a href="http://english.pku.edu.cn">Peking University (PKU)</a> in 2019 and during this period of time, I was fortunately directed by Prof. <a href="http://www.cis.pku.edu.cn/faculty/vision/zlin/zlin.htm/">Zhouchen Lin</a> and Prof. <a href="http://www.cis.pku.edu.cn/faculty/vision/zhangchao/zhangchao.htm/">Chao Zhang</a>.
-		</p>
-	</div>
-
-    <div class="container">
-        <h2>Research Interest</h2>
-        <br>
-        <p>
-        <li> Deep learning: Deep network architecture, efficient and lightweight network. </li>
-        <li> Computer vision: Low-level vision, cross-modal retrieval and semantic segmentation. </li>
-        </p>
-    </div>
-
-	<div class="container">
-		<h2>Publications</h2>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/djsrh.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval
-                </strong>
-                <br>
-                <br>
-                <font size="3"> Shupeng Su*, <b>Zhisheng Zhong*</b>, Chao Zhang (* equal contributions).</font>
-                <br>
-                <font size="3"> <em>International Conference on Computer Vision (ICCV), 2019, oral, Top-4.3%.</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://github.com/zzs1994/DJSRH">Code</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/emanet.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    Expectation-Maximization Attention Networks for Semantic Segmentation
-                </strong>
-                <br>
-                <br>
-                <font size="3"> Xia Li, <b>Zhisheng Zhong</b>,  Jianlong Wu, Yibo Yang, Zhouchen Lin, Hong Liu.</font>
-                <br>
-                <font size="3"> <em>International Conference on Computer Vision (ICCV), 2019, oral, Top-4.3%.</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://arxiv.org/pdf/1907.13426.pdf">PDF</a>
-                    <a href="https://github.com/XiaLiPKU/EMANet">Code</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/dladmm.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    Differentiable Linearized ADMM
-                </strong>
-                <br>
-                <br>
-                <font size="3"> Xingyu Xie, Jianlong Wu, <b>Zhisheng Zhong</b>, Guangcan Liu, Zhouchen Lin.</font>
-                <br>
-                <font size="3"> <em>International Conference on Machine Learning (ICML), 2019.</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://arxiv.org/pdf/1905.06179.pdf">PDF</a>
-                    <a href="https://github.com/zzs1994/D-LADMM">Code</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/adatucker.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    ADA-Tucker: Compressing Deep Neural Networks via Adaptive Dimension Adjustment Tucker Decomposition
-                </strong>
-                <br>
-                <br>
-                <font size="3"> <b>Zhisheng Zhong</b>, Fangyin Wei, Zhouchen Lin, Chao Zhang.</font>
-                <br>
-                <font size="3"> <em>Neural Networks, 2019, JIF: 7.197</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://arxiv.org/pdf/1906.07671.pdf">PDF</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/srcliquenet.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    Joint Sub-bands Learning with Clique Structures for Wavelet Domain Super-Resolution
-                </strong>
-                <br>
-                <br>
-                <font size="3"> <b>Zhisheng Zhong</b>, Tiancheng Shen, Yibo Yang, Chao Zhang, Zhouchen Lin.</font>
-                <br>
-                <font size="3"> <em>Neural Information Processing Systems (NeurIPS), 2018.</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://arxiv.org/pdf/1809.04508.pdf">PDF</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="publication">
-            <img src="./homepage_files/cliquenet.png" class="publogo" width="200 px">
-            <p> 
-                <strong>
-                    Convolutional Neural Networks with Alternately Updated Clique
-                </strong>
-                <br>
-                <br>
-                <font size="3"> Yibo Yang, <b>Zhisheng Zhong</b>, Tiancheng Shen, Zhouchen Lin.</font>
-                <br>
-                <font size="3"> <em>Computer Vision and Pattern Recognition (CVPR), 2018, oral, Top-2.3%.</em></font>
-                <br>
-                <br>
-                <span class="links">
-                    <a href="https://arxiv.org/pdf/1802.10419.pdf">PDF</a>
-                    <a href="https://github.com/iboing/CliqueNet">Code</a>
-                </span>
-            </p>
-        </div>
-        <br>
-        <br>
-    </div>
-
-    <div class="container">
-    	<h2>Selected Awards</h2>
-        <br>
-    	<div>
-    		<p>
-            <li> 2019   Monbukagakusho (MEXT) Scholarship, University of Tokyo, (Top-1%)</li>
-            <br>
-            <li> 2019   Qualcomm Scholarship, Peking University (Top-2%) </li>
-            <br>
-            <li> 2019   Excellent Graduate, Peking University (Top-5%) </li>
-            <br>
-            <li> 2018   Bao Steel Education Scholarship, Peking University (Top-5%)</li>
-            <br>
-            <li> 2018   Merit Student, Peking University (Top-5%)</li>
-            <br>
-            <li> 2016   Excellent Graduate, Beijing (Top-2%)</li>
-            <br>
-            <li> 2015   National Encouragement Scholarship, Beijing (Top-5%)</li>
-            <br>
-            <li> 2014   National Encouragement Scholarship, Beijing (Top-5%)</li>
-            <br>
-            <li> 2013   First Prize, undergraduate physics competition, Beijing (Top-5%)</li>
-            <br>
-            <li> 2013   First Prize, undergraduate mathematics competition, Beijing (Top-5%)</li>
-            <br>
-            </p>
-    	</div>
-    </div>
+<div style="clear: both;">
+<div class="section">
+<h2>Short Biography</h2>
+<div class="paper">
+I am currently a Ph.D candidate at <a href="https://www.u-tokyo.ac.jp/en">the University of Tokyo (UTokyo)</a>, <a href="http://www.hal.t.u-tokyo.ac.jp/lab/en">Aizawa Yamasaki Laboratory</a>, fortunately  directed by Prof. <a href="http://www.hal.t.u-tokyo.ac.jp/~aizawa/">Kiyoharu Aizawa</a>. Before studying in UTokyo, I graduated from <a href="http://english.pku.edu.cn">Peking University (PKU)</a> in 2019 and during this period of time, I was fortunately directed by Prof. <a href="http://www.cis.pku.edu.cn/faculty/vision/zlin/zlin.htm/">Zhouchen Lin</a> and Prof. <a href="http://www.cis.pku.edu.cn/faculty/vision/zhangchao/zhangchao.htm/">Chao Zhang</a>.
 
 
-</body></html>
+
+
+</div>
+</div>
+</div>
+<!--
+<div style="clear: both;">
+<div class="section">
+  <h2>News</h2>
+  <div class="paper">
+    <ul>
+  <li> 2018.07: One paper is accepted by <strong> ECCV 2018 </strong>.</li> 
+  <li> 2018.07: One paper is accepted by <strong> ACM MM 2018 </strong> .</li>  
+  <li> 2019.07: Two papers are accepted by <strong> ICCV 2019 </strong>, one as <strong> Oral </strong> and one as Poster.</li>
+  <li> 2019.06: One paper is accepted by <strong> TPAMI </strong>.</li> 
+  <li> 2019.05: Start my internship at <strong> Bytedance AI Lab </strong> in Palo Alto.</li>
+  <li> 2018.05: Start my internship at <strong> Adobe Research </strong> in San Jose.</li>      
+  <li> 2018.03: One paper is accepted by <strong> CVPR 2018 </strong> as <strong> spotlight </strong>.</li>
+  <li> 2017.05: Start my internship at <strong> Siemens Research </strong> in Princeton.</li> 
+  <li> 2017.04: One paper is accepted by <strong> IJCAI 2017 </strong> .</li>   
+  <li> 2016.09: Begin my new journey in <strong> Northeastern University </strong> at Boston.</li>   
+    </ul>
+  </div>
+</div>
+</div> -->
+
+
+
+
+<!-- <div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Intern Experience</h2>
+
+
+ -->
+
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Publications</h2>
+
+
+<div class="paper" id="DJSRH"><img class="paper" src="./pic/DJRSH.PNG" title="Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval">
+<div> <strong>Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval</strong><br>
+Shupeng Su*, <strong><u>Zhisheng Zhong*</u></strong>, Chao Zhang (* equal contributions)<br>
+International Conference on Computer Vision (<strong>ICCV</strong>), 2019 <strong>(Oral)</strong>
+<!--<a href='https://arxiv.org/pdf/1909.02701.pdf'>[PDF]</a>, -->
+<a href='https://github.com/zzs1994/DJSRH'>[Code]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="AttnBN"><img class="paper" src="./pic/AttnBN.PNG" title="Attention Bridging Network for Knowledge Transfer">
+<div> <strong>Attention Bridging Network for Knowledge Transfer</strong><br>
+<strong><u>Kunpeng Li</u></strong>, Yulun Zhang, Kai Li, Yuanyuan Li, Yun Fu <br>
+International Conference on Computer Vision (<strong>ICCV</strong>), 2019 
+[PDF]</a>,
+[code]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="RNAN"><img class="paper" src="./pic/RNAN.PNG" title="Residual Non-local Attention Networks for Image Restoration">
+<div> <strong>Residual Non-local Attention Networks for Image Restoration</strong><br>
+Yulun Zhang, <strong><u>Kunpeng Li</u></strong>, Kai Li, Bineng Zhong, Yun Fu <br>
+International Conference on Learning Representations (<strong>ICLR</strong>), 2019
+<a href='https://openreview.net/pdf?id=HkeGhoA5FX'>[PDF]</a>,
+<a href='https://github.com/yulunzhang/RNAN'>[code]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+
+<div class="paper" id="GAIN"><img class="paper" src="./pic/GAIN.PNG" title="Tell Me Where to Look: Guided Attention Inference Network">
+<div> <strong>Tell Me Where to Look: Guided Attention Inference Network</strong><br>
+<strong><u>Kunpeng Li</u></strong>, Ziyan Wu, Kuan-Chuan Peng, Jan Ernst, Yun Fu <br>
+IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2018 <strong>(Spotlight)</strong>
+<a href='http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Tell_Me_Where_CVPR_2018_paper.pdf'>[PDF]</a>,
+<a href='https://github.com/alokwhitewolf/Guided-Attention-Inference-Network'>[Code]</a> by <a href='https://github.com/alokwhitewolf'>alokwhitewolf</a>, 
+<a href='https://www.youtube.com/watch?v=op9IBox_TTc'>[Talk]</a>, 
+<a href='https://press.siemens.com/global/en/pressrelease/siemens-extends-sinumerik-edge-include-more-applications-bringing-artificial'>[Siemens Product]</a> 
+</div>
+<br>
+<div> <strong>Guided Attention Inference Network</strong><br>
+<strong><u>Kunpeng Li</u></strong>, Ziyan Wu, Kuan-Chuan Peng, Jan Ernst, Yun Fu <br>
+IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>), 2019
+<a href='https://ieeexplore.ieee.org/abstract/document/8733010'>[Paper]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="RCAN"><img class="paper" src="./pic/RCAN.PNG" title="Image Super-Resolution Using Very Deep Residual Channel Attention Networks">
+<div> <strong>Image Super-Resolution Using Very Deep Residual Channel Attention Networks</strong><br>
+Yulun Zhang, <strong><u>Kunpeng Li</u></strong>, Kai Li, Bineng Zhong, Yun Fu <br>
+European Conference on Computer Vision (<strong>ECCV</strong>), 2018
+<a href='https://arxiv.org/abs/1807.02758'>[PDF]</a>,
+<a href='https://github.com/yulunzhang/RCAN'>[code]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="SN_reID"><img class="paper" src="./pic/SN_reID.PNG" title="Support Neighbor Loss for Person Re-Identification">
+<div> <strong>Support Neighbor Loss for Person Re-Identification</strong><br>
+Kai Li, Zhengming Ding, <strong><u>Kunpeng Li</u></strong>, Yulun Zhang, Yun Fu <br>
+ACM Multimedia (<strong>ACM MM</strong>), 2018
+<a href='https://arxiv.org/abs/1808.06030'>[PDF]</a>,
+<a href='https://github.com/kailigo/SN_loss_for_reID'>[code]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="MDSLT"><img class="paper" src="./pic/MDSLT.PNG" title="Multi-stream Deep Similarity Learning Networks for Visual Tracking">
+<div> <strong>Multi-stream Deep Similarity Learning Networks for Visual Tracking</strong><br>
+<strong><u>Kunpeng Li</u></strong>, Yu Kong, Yun Fu <br>
+International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>), 2017
+<a href='https://www.ijcai.org/proceedings/2017/0301.pdf'>[PDF]</a>,
+<a href='https://drive.google.com/file/d/1WoUK3G4khzI_qw1T48hvxa-7yPYYv3Ua/view'>[Benchmark Results]</a>,
+<a href='https://www.youtube.com/watch?v=UgrwdRQYAIA'>[Video Results]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+<div class="paper" id="AirWriting"><img class="paper" src="./pic/AirWriting.PNG" title="A New Fingertip Detection and Tracking Algorithm and Its Application on Writing-in-the-air System">
+<div> <strong>A New Fingertip Detection and Tracking Algorithm and Its Application on Writing-in-the-air System</strong><br>
+<strong><u>Kunpeng Li</u></strong>, Xin Zhang <br>
+IEEE International Conference on Image and Signal Processing, 2014
+<a href='https://ieeexplore.ieee.org/abstract/document/7003824'>[PDF]</a>,
+<a href='https://drive.google.com/file/d/0B6GPXWGb8uiyUW8tN2tmUERxWmc/view'>[Extension]</a>,
+<a href='https://www.youtube.com/watch?v=gCHIq0OQwUM'>[Demo]</a>
+</div>
+<div class="spanner"></div>
+</div>
+
+
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Awards</h2>
+<div class="paper">
+    <ul>
+  <li> Travel award for attending CVPR, 2018. </li>
+  <li> NSF travel award for attending IJCAI, 2017. </li>
+  <li> Dean's Fellowship, College of Engineering, Northeastern University, 2016. </li>
+  <li> First Prize in Digital Image Processing Contest of Guangdong Province, 2015. </li>
+  <li> National Scholarship, South China University of Technology, 2014. </li>
+    <li> Meritorious Winner in International Mathematical Contest in Modeling, 2014. </li>  
+    <!-- <li> Best Undergraduate Thesis, School of Remote Sensing and Information Engineering, Wuhan University, 2014. </li> -->
+    <!-- <li> Excellent Undergraduate Students, Wuhan University, 2012. </li> -->
+    </ul>
+</ul>
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Professonal Activities</h2>
+<div class="paper">
+<ul>
+<p><font size="5">
+  <li> Reviewer for CVPR 2019, 2020, ICCV 2019, AAAI 2019, 2020, TIP, TNNLS, TMI, TMM </li>        
+  <!-- <li> External Reviewer for CVPR, ICCV, ECCV, AAAI, IJCAI, AAAI (2017). </li> -->
+    <!-- <li> Guest reviewer for AAAI 2017. </li>       -->
+  <!-- <li> IEEE student member, AAAI student member. </li>    -->
+</font></p>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<!-- <div style="clear:both;">
+<p align="right"><font size="5">Last Updated on 11th Dec, 2017</a></font></p>
+<p align="right"><font size="5">Published with <a href='https://pages.github.com/'>GitHub Pages</a></font></p>
+</div> -->
+
+<!-- <hr> -->
+<!-- <!--  -->
+<!-- <div id="clustrmaps-widget"></div><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=IF-jAGUNTygi5pa59hxIgtJU2XqT-rGoO58Z3E1vHZk&cl=ffffff&w=a"></script> -->
+<div id="clustrmaps-widget"></div><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=m&d=IF-jAGUNTygi5pa59hxIgtJU2XqT-rGoO58Z3E1vHZk'></script>
+<!-- -->
+</body>
+</html>
