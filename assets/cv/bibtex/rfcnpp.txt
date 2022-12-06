@@ -1,0 +1,6 @@
+@inproceedings{li2018r,
+  title={R-fcn++: Towards accurate region-based fully convolutional networks for object detection},
+  author={Li, Zeming and Chen, Yilun and Yu, Gang and Deng, Yangdong},
+  booktitle={Thirty-Second AAAI Conference on Artificial Intelligence},
+  year={2018}
+}
