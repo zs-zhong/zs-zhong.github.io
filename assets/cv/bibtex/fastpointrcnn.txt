@@ -1,0 +1,7 @@
+@InProceedings{Chen_2019_ICCV,
+author = {Chen, Yilun and Liu, Shu and Shen, Xiaoyong and Jia, Jiaya},
+title = {Fast Point R-CNN},
+booktitle = {The IEEE International Conference on Computer Vision (ICCV)},
+month = {October},
+year = {2019}
+}
